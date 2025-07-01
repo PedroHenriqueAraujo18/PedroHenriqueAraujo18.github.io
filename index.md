@@ -1,6 +1,6 @@
 ## 📦 Gerenciadores Python: pipx e poetry
 
-### *pipx*
+###  pipx
 
 *pipx* é uma gerenciador de pacotes similar ao pip, com a diferença que ele cria um ambiente virtual sem sujar as bibliotecas, isolando dentro dele. Faciliatando a instalação de pacotes globais.
 
@@ -8,14 +8,14 @@
 sudo apt install pipx
 pipx ensurepath  # Comando pra adicionar o pipx ao PATH
 ```
-###*poetry*
+### poetry
 
 O poetry gerenciador de projetos para python , auxiliando em diversas etapas do desenvolvimento. Como instalação de versões do Python por exemplo.
 ```bash
 pipx install poetry 
 poetry self add poetry-plugin-shell (Habilita o Ambiente Virtual)
 ```
-## Criando um Projeto
+### Criando um Projeto
 ```bash
 poetry new --flat nomeprojeto (cria um projeto no formato flat, mas por padrão é src.)
 ```
