@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estudos de FastApi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2>🐍 Gerenciadores Python: pipx e poetry</h2>
+
+  <h3>📦 <em>pipx</em></h3>
+  <p>
+    <em>pipx</em> é uma gerenciador de pacotes similar ao pip, com a diferença que ele cria um ambiente virtual sem sujar as bibliotecas, isolando dentro dele. Faciliatando a instalação de pacotes globais.
+  </p>
+
+  <pre><code class="language-bash">sudo apt install pipx
+pipx ensurepath  # Comando pra adicionar o pipx ao PATH
+</code></pre>
+
+  <hr>
+
+  <h3>🛠️ <em>poetry</em></h3>
+  <p>
+    O <em>poetry</em> gerenciador de projetos para python , auxiliando em diversas etapas do desenvolvimento. Como instalação de versões do Python por exemplo.
+  </p>
+
+  <pre><code class="language-bash">poetry self add poetry-plugin-shell</code></pre>
+
+  <p>
+    A função <code>self add</code> do poetry permite a instalação de extensões e o acesso a ambientes virtuais usando o comando:
+  </p>
+
+  <pre><code class="language-bash">poetry shell</code></pre>
+
+</body>
+</html>
